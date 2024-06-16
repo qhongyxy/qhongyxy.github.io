@@ -471,7 +471,7 @@
 
   #bannerWave1 {
     height: 84px;
-    background: var(--bannerWave1);
+    background: var(--translucent);
     position: absolute;
     width: 200%;
     bottom: 0;
@@ -481,7 +481,7 @@
 
   #bannerWave2 {
     height: 100px;
-    background: var(--bannerWave2);
+    background: var(--articleFontColor);
     position: absolute;
     width: 400%;
     bottom: 0;

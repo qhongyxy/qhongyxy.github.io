@@ -654,7 +654,7 @@
   }
 
   .cd-top {
-    background: var(--toTop) no-repeat center;
+    background: var(--blue) no-repeat center;
     position: fixed;
     right: 5vh;
     top: -900px;

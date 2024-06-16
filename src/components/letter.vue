@@ -17,9 +17,13 @@
               <div class="flip">
                 <div class="front"></div>
                 <div class="back">
-                  <p class="letter">Ming<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夜にはいつも寒いよね、でも、手を繋いでいると、暖かくなるよ！<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;どんなに寒い夜も、君と二人でいれば、ちっとも寒くない！<br><br>
-                  <p style="float:right; display:block; width:80px;">Hao</p><span class="typed-cursor"
-                                                                                  style="animation-iteration-count: infinite;">|</span>
+                  <p class="letter">
+                    Ming<br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;夜にはいつも寒いよね、でも、手を繋いでいると、暖かくなるよ！<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;どんなに寒い夜も、君と二人でいれば、ちっとも寒くない！<br><br>
+                  </p>
+                  <p style="float:right; display:block; width:80px;">Hao</p>
+                  <span class="typed-cursor" style="animation-iteration-count: infinite;">|</span>
                   <a id="close" href="#">Close</a>
                 </div>
               </div>
@@ -417,14 +421,14 @@
   #top {
     text-align: right;
     background: beige url("https://haiyong.site/demo/eluvletter/images/bg.png");
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("https://haiyong.site/demo/eluvletter/images/bg.png");
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(163, 140, 130, 0.17))), url("https://haiyong.site/demo/eluvletter/images/bg.png");
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("https://haiyong.site/demo/eluvletter/images/bg.png");
-    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("https://haiyong.site/demo/eluvletter/images/bg.png");
-    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("https://haiyong.site/demo/eluvletter/images/bg.png");
+    background: -moz-linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("https://haiyong.site/demo/eluvletter/images/bg.png");
+    background: -webkit-linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("https://haiyong.site/demo/eluvletter/images/bg.png");
+    background: -o-linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("https://haiyong.site/demo/eluvletter/images/bg.png");
+    background: -ms-linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("https://haiyong.site/demo/eluvletter/images/bg.png");
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(163, 140, 130, 0.17) 100%), url("https://haiyong.site/demo/eluvletter/images/bg.png");
     -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
+
     width: 100%;
     height: 65%;
     position: absolute;
@@ -537,8 +541,8 @@
 
   #letter .flip .back {
     background: #fafafa;
-    background: -webkit-linear-gradient(top, #fafafa 90%, #f7f7f7 100%);
-    background: -moz-linear-gradient(top, #fafafa 80%, #f7f7f7 100%);
+    background: -webkit-linear-gradient(to top, #fafafa 90%, #f7f7f7 100%);
+    background: -moz-linear-gradient(to top, #fafafa 80%, #f7f7f7 100%);
     padding: 40px 40px 0;
     font-size: 18px;
     line-height: 1.4;

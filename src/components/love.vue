@@ -881,7 +881,7 @@
 
   #bannerWave1 {
     height: 84px;
-    background: var(--bannerWave1);
+    background: var(--background);
     position: absolute;
     width: 200%;
     bottom: 0;
@@ -891,7 +891,7 @@
 
   #bannerWave2 {
     height: 100px;
-    background: var(--bannerWave2);
+    background: var(--articleFontColor);
     position: absolute;
     width: 400%;
     bottom: 0;
@@ -1044,7 +1044,7 @@
     max-width: 350px;
     cursor: pointer;
     transition: all 0.3s;
-    background: var(--love) center center / cover no-repeat;
+    background: var(--borderHoverColor) center center / cover no-repeat;
     user-select: none;
   }
 

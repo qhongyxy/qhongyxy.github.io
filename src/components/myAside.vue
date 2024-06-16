@@ -421,7 +421,7 @@
   }
 
   .admire-box {
-    background: var(--springBg) center center / cover no-repeat;
+    background: var(--azure) center center / cover no-repeat;
     padding: 25px;
     border-radius: 10px;
     animation: hideToShow 1s ease-in-out;
@@ -449,7 +449,7 @@
     border-radius: 10px;
     height: 150px;
     width: 150px;
-    background: var(--admireImage) center center / cover no-repeat;
+    background: var(--articleGreyFontColor) center center / cover no-repeat;
   }
 
   .admire-content {
