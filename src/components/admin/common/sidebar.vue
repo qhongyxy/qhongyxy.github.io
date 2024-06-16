@@ -28,7 +28,7 @@
                     {{ threeItem.title }}
                   </el-menu-item>
                 </el-submenu>
-                <el-menu-item v-else :index="subItem.index" :key="subItem.index">
+                <el-menu-item v-else :index="subItem.index" :key="'subItem-' + subItem.index">
                   {{ subItem.title }}
                 </el-menu-item>
               </template>

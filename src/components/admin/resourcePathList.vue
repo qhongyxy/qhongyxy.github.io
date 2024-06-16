@@ -100,8 +100,10 @@
         <div>
           <div class="myCenter">
             <el-radio-group v-model="resourcePath.type">
-              <template v-for="item in resourceTypes">
-                <el-radio-button :label="item.value">{{ item.label }}</el-radio-button>
+              <template>
+                <el-radio-button v-for="item in items" :key="item.value" :label="item.value">
+                  {{ item.label }}
+                </el-radio-button>
               </template>
             </el-radio-group>
           </div>

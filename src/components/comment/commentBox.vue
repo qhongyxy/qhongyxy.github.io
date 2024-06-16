@@ -152,7 +152,7 @@
     /* 不改变边框 */
     outline: none;
     border-radius: 4px;
-    background-image: var(--commentURL);
+    background-image: var(--borderColor);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 100%;
