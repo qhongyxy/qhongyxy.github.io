@@ -21,7 +21,7 @@ module.exports = {
     ]
   },
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/qhong.github.io/'
+    ? '/qhong.github.io/dist/'
     : '/'
 };
 
