@@ -6,8 +6,27 @@
     <atom:link href="https://qhongyxy.github.io/rss.xml" rel="self" type="application/rss+xml"/>
     <description>记录精彩的程序人生</description>
     <generator>Solo, v4.4.0, https://b3log.org/solo</generator>
-    <lastBuildDate>Mon, 17 Jun 2024 18:43:38 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 17 Jun 2024 21:05:40 +0800</lastBuildDate>
     <language>zh-cn</language>
+    <item>
+      <title>P8697 [蓝桥杯 2019 国 C] 最长子序列最直白解法</title>
+      <link>https://qhongyxy.github.io/articles/2024/06/17/1718629144653.html</link>
+      <description/>
+      <author>qhong</author>
+      <guid>https://qhongyxy.github.io/articles/2024/06/17/1718629144653.html</guid>
+      <category>算法</category>
+      <category>c++</category>
+      <pubDate>Mon, 17 Jun 2024 21:00:29 +0800</pubDate>
+    </item>
+    <item>
+      <title>test</title>
+      <link>https://qhongyxy.github.io/articles/2024/06/17/1718628024656.html</link>
+      <description><![CDATA[<p>124</p>]]></description>
+      <author>qhong</author>
+      <guid>https://qhongyxy.github.io/articles/2024/06/17/1718628024656.html</guid>
+      <category>helloworld</category>
+      <pubDate>Mon, 17 Jun 2024 20:40:44 +0800</pubDate>
+    </item>
     <item>
       <title>世界，你好！</title>
       <link>https://qhongyxy.github.io/hello-solo</link>
